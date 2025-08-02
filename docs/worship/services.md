@@ -3,8 +3,10 @@
 ## Regular Worship Schedule
 
 ### Sunday Morning Worship
-**Time:** *Please call the church office for current service times*  
+**Time:** 10:00 AM Eastern Time  
 **Location:** Silver Hill Memorial UMC Sanctuary
+
+**📍 [Find us on Google Maps](https://maps.app.goo.gl/eJUeRBVKxBakPmEJ7)**
 
 Our Sunday morning worship service is the cornerstone of our weekly gathering. Each service includes:
 

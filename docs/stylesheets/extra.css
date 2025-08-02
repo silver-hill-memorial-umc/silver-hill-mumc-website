@@ -270,6 +270,82 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 
+/* Active search results styling */
+.md-search__output {
+  background: var(--shm-white) !important;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.md-search-result {
+  background: var(--shm-white) !important;
+  color: var(--shm-content-text) !important;
+}
+
+.md-search-result__meta {
+  background: var(--shm-light-gray) !important;
+  color: var(--shm-content-text) !important;
+}
+
+.md-search-result__title {
+  color: var(--shm-content-text) !important;
+}
+
+.md-search-result__teaser {
+  color: var(--shm-content-text) !important;
+  opacity: 0.8;
+}
+
+.md-search-result__link {
+  color: var(--shm-crimson-red) !important;
+}
+
+.md-search-result__link:hover {
+  color: var(--shm-navy-blue) !important;
+}
+
+.md-search-result--active,
+.md-search-result:hover {
+  background: var(--shm-light-gray) !important;
+}
+
+/* Search highlighting */
+.md-search-result mark {
+  background: var(--shm-crimson-red) !important;
+  color: var(--shm-white) !important;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.2rem;
+}
+
+/* Replace search icon with church logo */
+.md-header__button.md-icon[for="__search"] svg {
+  display: none !important;
+}
+
+.md-header__button.md-icon[for="__search"] {
+  position: relative;
+}
+
+.md-header__button.md-icon[for="__search"]::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 24px;
+  background-image: url("../images/shmumc-logo-circle-blue.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0) invert(1); /* Make it white to match header theme */
+  transition: filter 0.3s ease;
+}
+
+.md-header__button.md-icon[for="__search"]:hover::after {
+  filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(340deg); /* Red tint on hover */
+}
+
 /* Footer customization */
 .md-footer {
   background: var(--shm-gradient-navy) !important;

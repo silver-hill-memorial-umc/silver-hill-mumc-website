@@ -5,7 +5,7 @@ site_author: "Silver Hill Memorial UMC"
 
 theme:
   name: material
-  logo: images/shmumc-logo-main.svg
+  logo: images/shmumc-logo-circle-blue.svg
   favicon: images/favicon.ico
   custom_dir: docs/overrides
   

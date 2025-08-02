@@ -8,8 +8,10 @@ Join us every Sunday as we gather to worship God in spirit and truth.
 
 !!! note "Service Times"
     **Sunday Worship Service**  
-    Time: *Please call for current service time*  
-    Location: Silver Hill Memorial UMC Sanctuary
+    **Time:** 10:00 AM Eastern Time  
+    **Location:** Silver Hill Memorial UMC Sanctuary
+    
+    **📍 [Find us on Google Maps](https://maps.app.goo.gl/eJUeRBVKxBakPmEJ7)** | **🎥 [Watch Online](https://www.youtube.com/@silverhillumc5597)**
 
 ## What to Expect
 
@@ -56,6 +58,24 @@ Throughout the year, we celebrate the Christian calendar with special worship se
 - All Saints' Day remembrance
 - Thanksgiving service
 - Homecoming celebrations
+
+## Finding Us
+
+### Location & Directions
+
+<div class="contact-card">
+  <h3>Silver Hill Memorial UMC</h3>
+  <p>Spartanburg, SC</p>
+  
+  <div style="margin: 1.5rem 0; text-align: center;">
+    <p><strong>📍 We're located in Spartanburg, SC</strong></p>
+    <p style="color: var(--shm-content-text); opacity: 0.8;">Click the button below for detailed directions and street view</p>
+  </div>
+  
+  <a href="https://maps.app.goo.gl/eJUeRBVKxBakPmEJ7" class="md-button" target="_blank">
+    📍 Open in Google Maps
+  </a>
+</div>
 
 ## Accessibility
 
