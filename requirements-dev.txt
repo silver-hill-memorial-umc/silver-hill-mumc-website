@@ -1,0 +1,19 @@
+# Development dependencies for Silver Hill Memorial UMC Website
+
+# Include production dependencies
+-r requirements.txt
+
+# Development and testing tools
+pytest>=7.4.0,<8.0.0
+pytest-cov>=4.1.0,<5.0.0
+
+# Code formatting and linting
+black>=23.7.0,<24.0.0
+flake8>=6.0.0,<7.0.0
+isort>=5.12.0,<6.0.0
+
+# Documentation and development server
+mkdocs-serve>=1.5.0  # For local development server with live reload
+
+# Optional: For advanced development
+pre-commit>=3.3.0,<4.0.0  # Git hooks for code quality

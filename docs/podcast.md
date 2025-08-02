@@ -1,5 +1,6 @@
 # Podcast
 
-[Sermons Podcast](https://podcasters.spotify.com/pod/show/silver-hill-memorial-united-methodist-church)
+You can find the Silver Hill [Sermons Podcast](https://podcasters.spotify.com/pod/show/silver-hill-memorial-united-methodist-church) on all of the popular platforms.  Sermons are typically made available
+in podcast format within 24-48 hours of the service.
 
-<iframe src="https://podcasters.spotify.com/pod/show/silver-hill-memorial-united-methodist-church/embed/episodes/2024-07-28-10th-Sunday-After-Pentecost-e2mje9j" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://podcasters.spotify.com/pod/show/silver-hill-memorial-united-methodist-church/embed" height="600px" width="400px" frameborder="0" scrolling="no"></iframe>

@@ -1,16 +1,160 @@
 site_name: Silver Hill Memorial UMC
 site_url: https://silverhillmumc.com
+site_description: "Silver Hill Memorial United Methodist Church - Serving the Spartanburg community with faith, hope, and love."
+site_author: "Silver Hill Memorial UMC"
+
 theme:
   name: material
+  logo: images/logo.png
+  favicon: images/favicon.png
+  
+  # Custom color palette based on church logo
+  palette:
+    # Primary palette (Navy Blue theme)
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    
+    # Dark mode palette
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  # Enhanced features
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - content.tabs.link
+
+# Enhanced navigation structure
+nav:
+  - Home: index.md
+  - About Us:
+    - about/index.md
+    - Our History: history/index.md
+    - Our Beliefs: about/beliefs.md
+    - Leadership: about/leadership.md
+  - Worship & Ministry:
+    - worship/index.md
+    - Sunday Services: worship/services.md
+    - Online Worship: online-worship.md
+    - Special Events: worship/events.md
+  - Resources:
+    - resources/index.md
+    - Sermons & Podcast: podcast.md
+    - Bible Study: resources/bible-study.md
+    - Church Documents: resources/documents.md
+  - Get Involved:
+    - get-involved/index.md
+    - Ministries: get-involved/ministries.md
+    - Volunteer: get-involved/volunteer.md
+    - Community Outreach: get-involved/outreach.md
+  - Giving: giving.md
+  - Contact Us: contact-us.md
+
+# Enhanced markdown extensions
 markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
-  - pymdownx.details  
-  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - tables
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg  
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - toc:
+      permalink: true
+      title: On this page
+
+# Enhanced plugins
 plugins:
-  - social      
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - social:
+      cards_layout_options:
+        background_color: "#1e3a8a"
+        color: "#ffffff"
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - tags
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+
+# Additional configuration
+extra:
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/silverhillmumc
+      name: Silver Hill Memorial UMC on Facebook
+    - icon: fontawesome/solid/envelope
+      link: mailto:info@silverhillmumc.com
+      name: Email Us
+    - icon: fontawesome/solid/phone
+      link: tel:+1-864-555-0123
+      name: Call Us
+  
+  generator: false
+  
+  # Church-specific information
+  church:
+    pastor: "Rev. Morris Waymer, Jr."
+    address: "Spartanburg, SC"
+    phone: "(864) 555-0123"
+    email: "info@silverhillmumc.com"
+
+# Custom CSS
+extra_css:
+  - stylesheets/extra.css
+
+# Copyright
+copyright: |
+  &copy; 2024 Silver Hill Memorial United Methodist Church. All rights reserved.      
