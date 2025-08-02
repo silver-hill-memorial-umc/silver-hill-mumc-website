@@ -6,27 +6,14 @@ site_author: "Silver Hill Memorial UMC"
 theme:
   name: material
   logo: images/shmumc-logo-main.svg
-  favicon: images/shmumc-logo-circle-blue.svg
+  favicon: images/favicon.ico
+  custom_dir: docs/overrides
   
-  # Custom color palette based on church logo
+  # Custom color palette based on church logo - Light mode only
   palette:
-    # Primary palette (Navy Blue theme)
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    
-    # Dark mode palette
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    scheme: default
+    primary: custom
+    accent: custom
   
   # Enhanced features
   features:
