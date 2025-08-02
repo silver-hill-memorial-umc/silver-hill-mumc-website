@@ -60,13 +60,19 @@ mkdocs gh-deploy
 
 ## Custom Theme Implementation
 
-The site uses a custom color palette based on the church logo:
-- **Navy Blue** (#1e3a8a) - Primary color
-- **Crimson Red** (#dc2626) - Accent color  
-- **Gold** (#d97706) - Highlight color
-- **Dark Navy** (#0f1b4c) - Secondary color
+The site uses the official Silver Hill Memorial UMC brand colors extracted from the church logo:
 
-These colors are implemented through CSS custom properties in `docs/stylesheets/extra.css`.
+### Primary Brand Colors
+- **Crimson Red** (#be1e2d) - Primary brand color from the "S" - used for hyperlinks
+- **Content Text** (#231f20) - Text color from logo - used for body content  
+- **Navy Blue** (#003462) - From the "H" with cross - used sparingly as accent
+
+### Supporting Colors
+- **Gold Accent** (#d4a574) - From mountain element - special highlights
+- **Light Gray** (#f5f5f5) - Background and subtle areas
+- **Medium Gray** (#9ca3af) - Borders and dividers
+
+These colors are implemented through CSS custom properties in `docs/stylesheets/extra.css` and create a professional, branded appearance that perfectly matches the church's official visual identity. The site includes a comprehensive Brand Guidelines page at `/brand` with all logo variations and usage guidelines.
 
 ## Content Guidelines
 

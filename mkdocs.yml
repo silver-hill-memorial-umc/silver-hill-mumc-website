@@ -5,8 +5,8 @@ site_author: "Silver Hill Memorial UMC"
 
 theme:
   name: material
-  logo: images/logo.png
-  favicon: images/favicon.png
+  logo: images/shmumc-logo-main.svg
+  favicon: images/shmumc-logo-circle-blue.svg
   
   # Custom color palette based on church logo
   palette:
@@ -72,6 +72,7 @@ nav:
     - Community Outreach: get-involved/outreach.md
   - Giving: giving.md
   - Contact Us: contact-us.md
+  - Brand Guidelines: brand.md
 
 # Enhanced markdown extensions
 markdown_extensions:
@@ -111,7 +112,7 @@ plugins:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - social:
       cards_layout_options:
-        background_color: "#1e3a8a"
+        background_color: "#003462"
         color: "#ffffff"
   - minify:
       minify_html: true

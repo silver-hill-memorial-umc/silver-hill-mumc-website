@@ -1,5 +1,5 @@
 <div class="hero-section">
-  <img src="images/logo.png" alt="Silver Hill Memorial UMC Logo" class="hero-logo">
+  <img src="images/shmumc-logo-main.svg" alt="Silver Hill Memorial UMC Logo" class="hero-logo">
   <h1 class="hero-title">Welcome to Silver Hill Memorial UMC</h1>
   <p class="hero-subtitle">A vibrant community of faith serving Spartanburg with open hearts, open minds, and open doors</p>
   <div style="margin-top: 2rem;">

@@ -93,10 +93,19 @@ We welcome contributions from church members and the community! Please see [CONT
 
 ## 🎨 Design & Branding
 
-The website uses a custom color palette based on our church logo:
-- **Navy Blue** (#1e3a8a) - Primary color
-- **Crimson Red** (#dc2626) - Accent color
-- **Gold** (#d97706) - Highlight color
+The website uses the official Silver Hill Memorial UMC brand colors extracted from our church logo:
+
+### Primary Brand Colors
+- **Crimson Red** (#be1e2d) - Primary brand color from the "S" - used for hyperlinks
+- **Content Text** (#231f20) - Text color from logo - used for body content  
+- **Navy Blue** (#003462) - From the "H" with cross - used sparingly as accent
+
+### Supporting Colors
+- **Gold Accent** (#d4a574) - From mountain element - special highlights
+- **Light Gray** (#f5f5f5) - Background and subtle areas
+- **Medium Gray** (#9ca3af) - Borders and dividers
+
+Visit our [Brand Guidelines](brand.md) page for complete logo usage and color specifications.
 
 ## 🚀 Deployment
 

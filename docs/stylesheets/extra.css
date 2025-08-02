@@ -2,29 +2,37 @@
 /* Based on the church logo color palette */
 
 :root {
-  /* Church Logo Color Palette */
-  --shm-navy-blue: #1e3a8a;
-  --shm-crimson-red: #dc2626;
-  --shm-gold: #d97706;
-  --shm-white: #ffffff;
-  --shm-dark-navy: #0f1b4c;
+  /* Official Silver Hill Memorial UMC Brand Colors */
+  --shm-crimson-red: #be1e2d;     /* Primary brand red from "S" - for links */
+  --shm-content-text: #231f20;    /* Text color from logo - for body content */
+  --shm-navy-blue: #003462;       /* Navy from "H" - accent use only */
+  --shm-white: #ffffff;           /* Pure white for contrast */
+  --shm-light-gray: #f5f5f5;      /* Background/subtle areas */
+  --shm-medium-gray: #9ca3af;     /* Borders/dividers */
+  --shm-gold-accent: #d4a574;     /* Gold from mountain element */
+  
+  /* Supporting colors for web functionality */
+  --shm-success-green: #10b981;   /* Success states */
+  --shm-warning-orange: #f59e0b;  /* Warning states */
+  --shm-error-red: #dc2626;       /* Error states */
   
   /* Material Design Custom Colors */
-  --md-primary-fg-color: var(--shm-navy-blue);
-  --md-primary-fg-color--light: #3b82f6;
-  --md-primary-fg-color--dark: var(--shm-dark-navy);
+  --md-primary-fg-color: var(--shm-content-text);
+  --md-primary-fg-color--light: var(--shm-medium-gray);
+  --md-primary-fg-color--dark: var(--shm-content-text);
   --md-accent-fg-color: var(--shm-crimson-red);
-  --md-accent-fg-color--transparent: rgba(220, 38, 38, 0.1);
+  --md-accent-fg-color--transparent: rgba(190, 30, 45, 0.1);
   
   /* Custom enhancements */
-  --shm-gradient-primary: linear-gradient(135deg, var(--shm-navy-blue), var(--shm-dark-navy));
-  --shm-gradient-accent: linear-gradient(135deg, var(--shm-crimson-red), #b91c1c);
+  --shm-gradient-primary: linear-gradient(135deg, var(--shm-content-text), #1a1718);
+  --shm-gradient-accent: linear-gradient(135deg, var(--shm-crimson-red), #9a1825);
+  --shm-gradient-navy: linear-gradient(135deg, var(--shm-navy-blue), #002549);
 }
 
 /* Header customization */
 .md-header {
-  background: var(--shm-gradient-primary);
-  box-shadow: 0 2px 8px rgba(30, 58, 138, 0.3);
+  background: var(--shm-gradient-navy);
+  box-shadow: 0 2px 8px rgba(0, 52, 98, 0.3);
 }
 
 .md-header__title {
@@ -34,8 +42,8 @@
 
 /* Navigation tabs styling */
 .md-tabs {
-  background: var(--shm-gradient-primary);
-  border-bottom: 2px solid var(--shm-gold);
+  background: var(--shm-gradient-navy);
+  border-bottom: 2px solid var(--shm-crimson-red);
 }
 
 .md-tabs__item {
@@ -46,7 +54,7 @@
 .md-tabs__item--active,
 .md-tabs__item:hover {
   color: var(--shm-white);
-  border-bottom: 2px solid var(--shm-gold);
+  border-bottom: 2px solid var(--shm-crimson-red);
 }
 
 /* Logo enhancements */
@@ -59,32 +67,34 @@
 
 /* Hero section styles */
 .hero-section {
-  background: var(--shm-gradient-primary);
-  color: var(--shm-white);
+  background: var(--shm-white);
+  color: var(--shm-content-text);
   padding: 4rem 2rem;
   text-align: center;
-  margin: -1.5rem -1.5rem 2rem -1.5rem;
-  border-radius: 0 0 1rem 1rem;
+  margin: 0 0 2rem 0;
+  border-radius: 0;
 }
 
 .hero-logo {
-  max-width: 200px;
+  max-width: 300px;
   height: auto;
   margin: 0 auto 2rem auto;
   display: block;
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+  /* Clean presentation - no filters or effects */
 }
 
 .hero-title {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  color: var(--shm-content-text);
+  /* Removed text-shadow for clean white background */
 }
 
 .hero-subtitle {
   font-size: 1.2rem;
-  opacity: 0.9;
+  color: var(--shm-content-text);
+  opacity: 0.8;
   margin-bottom: 2rem;
   max-width: 600px;
   margin-left: auto;
@@ -101,23 +111,23 @@
   font-weight: 600;
   text-transform: none;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(220, 38, 38, 0.3);
+  box-shadow: 0 2px 8px rgba(190, 30, 45, 0.3);
 }
 
 .md-button:hover,
 .md-button:focus {
-  background: linear-gradient(135deg, #b91c1c, #991b1b);
+  background: linear-gradient(135deg, #9a1825, #7a1420);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.4);
+  box-shadow: 0 4px 12px rgba(190, 30, 45, 0.4);
 }
 
 .md-button--primary {
-  background: var(--shm-gradient-primary);
-  box-shadow: 0 2px 8px rgba(30, 58, 138, 0.3);
+  background: var(--shm-gradient-navy);
+  box-shadow: 0 2px 8px rgba(0, 52, 98, 0.3);
 }
 
 .md-button--primary:hover {
-  background: linear-gradient(135deg, var(--shm-dark-navy), #1e40af);
+  background: linear-gradient(135deg, #002549, #00203a);
 }
 
 /* Accent highlights */
@@ -127,32 +137,45 @@
 }
 
 .gold-accent {
-  color: var(--shm-gold);
+  color: var(--shm-gold-accent);
+  font-weight: 600;
+}
+
+.navy-accent {
+  color: var(--shm-navy-blue);
+  font-weight: 600;
+}
+
+.green-accent {
+  color: var(--shm-success-green);
   font-weight: 600;
 }
 
 /* Card enhancements */
 .md-typeset .admonition,
 .md-typeset details {
-  border-left: 4px solid var(--shm-navy-blue);
-  background: rgba(30, 58, 138, 0.05);
+  border-left: 4px solid var(--shm-crimson-red);
+  background: rgba(190, 30, 45, 0.05);
 }
 
 .md-typeset .admonition.note {
   border-left-color: var(--shm-navy-blue);
+  background: rgba(0, 52, 98, 0.05);
 }
 
 .md-typeset .admonition.tip {
-  border-left-color: var(--shm-gold);
+  border-left-color: var(--shm-success-green);
+  background: rgba(16, 185, 129, 0.05);
 }
 
 .md-typeset .admonition.warning {
-  border-left-color: var(--shm-crimson-red);
+  border-left-color: var(--shm-warning-orange);
+  background: rgba(245, 158, 11, 0.05);
 }
 
 /* Table styling */
 .md-typeset table:not([class]) {
-  border: 1px solid rgba(30, 58, 138, 0.2);
+  border: 1px solid rgba(156, 163, 175, 0.3);
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -164,7 +187,7 @@
 }
 
 .md-typeset table:not([class]) tr:nth-child(even) {
-  background: rgba(30, 58, 138, 0.05);
+  background: var(--shm-light-gray);
 }
 
 /* Search enhancements */
@@ -184,17 +207,17 @@
 
 /* Footer customization */
 .md-footer {
-  background: var(--shm-gradient-primary);
+  background: var(--shm-gradient-navy);
   color: var(--shm-white);
 }
 
 .md-footer__meta {
-  background: var(--shm-dark-navy);
+  background: var(--shm-navy-blue);
 }
 
 /* Navigation sidebar */
 .md-nav__title {
-  color: var(--shm-navy-blue);
+  color: var(--shm-content-text);
   font-weight: 600;
 }
 
@@ -205,13 +228,13 @@
 
 /* Content enhancements */
 .md-typeset h1 {
-  color: var(--shm-navy-blue);
-  border-bottom: 2px solid var(--shm-gold);
+  color: var(--shm-content-text);
+  border-bottom: 2px solid var(--shm-crimson-red);
   padding-bottom: 0.5rem;
 }
 
 .md-typeset h2 {
-  color: var(--shm-navy-blue);
+  color: var(--shm-content-text);
   position: relative;
 }
 
@@ -227,17 +250,26 @@
   border-radius: 2px;
 }
 
-/* Link styling */
+/* Link styling - Official brand color for all hyperlinks */
 .md-typeset a {
   color: var(--shm-crimson-red);
   text-decoration: underline;
   text-decoration-color: transparent;
   transition: all 0.3s ease;
+  font-weight: 500;
 }
 
 .md-typeset a:hover {
   color: var(--shm-navy-blue);
-  text-decoration-color: var(--shm-gold);
+  text-decoration-color: var(--shm-crimson-red);
+}
+
+/* Body text color - Official brand text color */
+.md-typeset p,
+.md-typeset li,
+.md-typeset td,
+.md-typeset blockquote {
+  color: var(--shm-content-text);
 }
 
 /* Image enhancements */
@@ -254,18 +286,18 @@
 /* Pastor photo styling */
 .pastor-photo {
   border-radius: 50%;
-  border: 4px solid var(--shm-gold);
+  border: 4px solid var(--shm-crimson-red);
   max-width: 200px;
   margin: 1rem auto;
   display: block;
-  box-shadow: 0 4px 16px rgba(30, 58, 138, 0.3);
+  box-shadow: 0 4px 16px rgba(35, 31, 32, 0.3);
 }
 
 /* Quote styling */
 .md-typeset blockquote {
-  border-left: 4px solid var(--shm-gold);
-  background: rgba(217, 119, 6, 0.1);
-  color: var(--shm-dark-navy);
+  border-left: 4px solid var(--shm-crimson-red);
+  background: rgba(190, 30, 45, 0.1);
+  color: var(--shm-content-text);
   font-style: italic;
   padding: 1.5rem;
   border-radius: 0 0.5rem 0.5rem 0;
@@ -273,13 +305,13 @@
 
 /* Contact information cards */
 .contact-card {
-  background: var(--shm-gradient-primary);
+  background: var(--shm-gradient-navy);
   color: var(--shm-white);
   padding: 2rem;
   border-radius: 1rem;
   text-align: center;
   margin: 1rem 0;
-  box-shadow: 0 4px 16px rgba(30, 58, 138, 0.3);
+  box-shadow: 0 4px 16px rgba(0, 52, 98, 0.3);
 }
 
 .contact-card h3 {
