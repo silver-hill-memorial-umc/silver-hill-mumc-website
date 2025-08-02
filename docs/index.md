@@ -25,6 +25,14 @@ Join us every Sunday for worship that honors tradition while embracing contempor
 </div>
 <div class="md-grid__item" markdown>
 
+### 📺 **Watch Online**
+Can't make it in person? Watch our services and sermons on our YouTube channel anytime.
+
+[YouTube Channel](https://www.youtube.com/@silverhillumc5597){ .md-button }
+
+</div>
+<div class="md-grid__item" markdown>
+
 ### 📖 **Learn & Grow**
 Discover opportunities for spiritual growth through Bible study, small groups, and faith formation.
 

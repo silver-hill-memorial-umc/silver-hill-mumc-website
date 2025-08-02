@@ -121,8 +121,14 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/facebook
-      link: https://facebook.com/silverhillmumc
+      link: https://www.facebook.com/p/Silver-Hill-Memorial-United-Methodist-Church-100064933170104/
       name: Silver Hill Memorial UMC on Facebook
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/silverhillmumc/
+      name: Follow us on Instagram
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@silverhillumc5597
+      name: Watch our services on YouTube
     - icon: fontawesome/solid/envelope
       link: mailto:info@silverhillmumc.com
       name: Email Us
@@ -145,4 +151,4 @@ extra_css:
 
 # Copyright
 copyright: |
-  &copy; 2024 Silver Hill Memorial United Methodist Church. All rights reserved.      
+  &copy; 2025 Silver Hill Memorial United Methodist Church. All rights reserved.      

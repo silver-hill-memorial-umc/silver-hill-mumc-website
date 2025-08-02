@@ -8,7 +8,7 @@ To make disciples of Jesus Christ for the transformation of the world.
 
 ## Our Vision
 
-Silver Hill Memorial UMC is a welcoming community where all people can experience God's love, grow in faith, and serve others with joy.
+God Centered compassionate Servants led by the Holy Spirit
 
 ## Our Values
 
