@@ -129,6 +129,9 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@silverhillumc5597
       name: Watch our services on YouTube
+    - icon: fontawesome/brands/github
+      link: https://github.com/silver-hill-memorial-umc
+      name: Visit our GitHub organization
     - icon: fontawesome/solid/envelope
       link: mailto:silverhillmumc@gmail.com
       name: Email Us
