@@ -50,6 +50,13 @@ jobs:
         aws s3 sync site/ s3://${{ secrets.S3_BUCKET_NAME }}/ --delete --cache-control "max-age=86400"
         
     - name: Invalidate CloudFront distribution (optional)
-      if: github.ref == 'refs/heads/main' && github.event_name == 'push' && secrets.CLOUDFRONT_DISTRIBUTION_ID != ''
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+      env:
+        CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
       run: |
-        aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+        if [ ! -z "$CLOUDFRONT_DISTRIBUTION_ID" ]; then
+          aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+          echo "CloudFront cache invalidated"
+        else
+          echo "CloudFront distribution ID not set, skipping cache invalidation"
+        fi
