@@ -7,7 +7,7 @@ name = "silver-hill-mumc-website"
 version = "1.0.0"
 description = "Silver Hill Memorial United Methodist Church Website"
 authors = [
-    {name = "Silver Hill Memorial UMC", email = "info@silverhillmumc.com"}
+    {name = "Silver Hill Memorial UMC", email = "silverhillmumc@gmail.com"}
 ]
 readme = "README.md"
 license = {text = "MIT"}

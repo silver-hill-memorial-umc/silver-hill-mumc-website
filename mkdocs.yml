@@ -130,10 +130,10 @@ extra:
       link: https://www.youtube.com/@silverhillumc5597
       name: Watch our services on YouTube
     - icon: fontawesome/solid/envelope
-      link: mailto:info@silverhillmumc.com
+      link: mailto:silverhillmumc@gmail.com
       name: Email Us
     - icon: fontawesome/solid/phone
-      link: tel:+1-864-555-0123
+      link: tel:+1-864-587-2018
       name: Call Us
   
   generator: false
@@ -142,8 +142,8 @@ extra:
   church:
     pastor: "Rev. Morris Waymer, Jr."
     address: "Spartanburg, SC"
-    phone: "(864) 555-0123"
-    email: "info@silverhillmumc.com"
+    phone: "1-864-587-2018"
+    email: "silverhillmumc@gmail.com"
 
 # Custom CSS
 extra_css:
