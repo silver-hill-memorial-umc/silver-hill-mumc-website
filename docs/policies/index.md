@@ -11,6 +11,10 @@ At Silver Hill Memorial United Methodist Church, we are committed to maintaining
 ### [Safe Sanctuary Policy](safe-sanctuary.md){ .md-button .md-button--primary }
 Our comprehensive protection policy that outlines our commitment to preventing abuse and ensuring the safety of all children, youth, and vulnerable adults in our care. This policy includes guidelines for staff recruitment, supervision procedures, and response protocols.
 
+## Policy Resources
+
+[📄 Safe Santuary Printable Flyer with QR Code](safe-sanctuary-flyer.html){ .md-button } - Perfect for posting in classrooms, hallways, and common areas
+
 ---
 
 ## Policy Development and Updates
