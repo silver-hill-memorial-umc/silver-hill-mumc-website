@@ -87,9 +87,10 @@ Find ways to use your gifts in service to God and community through our many min
 <div class="md-grid__item" markdown>
 !!! tip "All Are Welcome"
     
-    We embrace all people as <span class="gold-accent">beloved children of God</span>, regardless of where you are in your faith journey.
+    We embrace all people as <span class="gold-accent">beloved children of God</span>, regardless of where you are in your faith journey. We're committed to providing a safe sanctuary for all.
     
     [About Our Beliefs](about/beliefs.md){ .md-button }
+    [Safe Sanctuary Policy](policies/safe-sanctuary.md){ .md-button }
 
 </div>
 
