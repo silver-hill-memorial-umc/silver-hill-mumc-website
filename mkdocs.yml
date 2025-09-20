@@ -57,6 +57,9 @@ nav:
     - Ministries: get-involved/ministries.md
     - Volunteer: get-involved/volunteer.md
     - Community Outreach: get-involved/outreach.md
+  - Policies:
+    - policies/index.md
+    - Safe Sanctuary Policy: policies/safe-sanctuary.md
   - Giving: giving.md
   - Contact Us: contact-us.md
   - Brand Guidelines: brand.md
