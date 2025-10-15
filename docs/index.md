@@ -118,7 +118,7 @@ Ready to take the next step? We'd love to hear from you and help you find your p
 <div class="contact-card">
   <h3>Questions?</h3>
   <p>We're here to help you find answers and connect</p>
-  <a href="contact-us.html" class="md-button">Get In Touch</a>
+  <a href="contact-us/" class="md-button">Get In Touch</a>
 </div>
 
 ---
