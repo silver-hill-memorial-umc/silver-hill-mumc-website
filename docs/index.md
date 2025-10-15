@@ -17,7 +17,7 @@ At Silver Hill Memorial United Methodist Church, we believe that <span class="ac
 <div class="md-grid md-typeset" markdown>
 <div class="md-grid__item" markdown>
 
-### 🙏 **Worship With Us**
+### 🙏🏾 **Worship With Us**
 Join us every Sunday for worship that honors tradition while embracing contemporary relevance.
 
 [Sunday Services](worship/services.md){ .md-button }
@@ -41,7 +41,7 @@ Discover opportunities for spiritual growth through Bible study, small groups, a
 </div>
 <div class="md-grid__item" markdown>
 
-### 🤝 **Get Involved**
+### 🤝🏾 **Get Involved**
 Find ways to use your gifts in service to God and community through our many ministries.
 
 [Get Involved](get-involved/index.md){ .md-button }
@@ -112,13 +112,13 @@ Ready to take the next step? We'd love to hear from you and help you find your p
 <div class="contact-card">
   <h3>Visit Us This Sunday</h3>
   <p>Experience our warm community and meaningful worship</p>
-  <a href="worship/services.md" class="md-button">Service Information</a>
+  <a href="worship/" class="md-button">Service Information</a>
 </div>
 
 <div class="contact-card">
   <h3>Questions?</h3>
   <p>We're here to help you find answers and connect</p>
-  <a href="contact-us.md" class="md-button">Get In Touch</a>
+  <a href="contact-us.html" class="md-button">Get In Touch</a>
 </div>
 
 ---

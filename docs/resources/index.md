@@ -27,7 +27,7 @@ Welcome to our resources section! Here you'll find materials to support your spi
 ### Recent Sermons
 Stay connected with our weekly messages and teachings.
 
-[Listen to Recent Sermons](../podcast.md){ .md-button }
+[Watch Recent Sermons on YouTube](https://www.youtube.com/@silverhillumc5597){ .md-button }
 
 ### Sermon Archives
 Access past sermons and special messages from our pastoral team.
