@@ -2,35 +2,43 @@
 /* Based on the church logo color palette */
 
 :root {
-  /* Official Silver Hill Memorial UMC Brand Colors */
-  --shm-crimson-red: #be1e2d;     /* Primary brand red from "S" - for links */
-  --shm-content-text: #231f20;    /* Text color from logo - for body content */
-  --shm-navy-blue: #003462;       /* Navy from "H" - accent use only */
-  --shm-white: #ffffff;           /* Pure white for contrast */
-  --shm-light-gray: #f5f5f5;      /* Background/subtle areas */
-  --shm-medium-gray: #9ca3af;     /* Borders/dividers */
-  --shm-gold-accent: #d4a574;     /* Gold from mountain element */
-  
-  /* Supporting colors for web functionality */
-  --shm-success-green: #10b981;   /* Success states */
-  --shm-warning-orange: #f59e0b;  /* Warning states */
-  --shm-error-red: #dc2626;       /* Error states */
-  
-  /* Material Design Custom Colors */
+  /* ============================================
+     Official Silver Hill Memorial UMC Brand Colors
+     Based on Brand Guidelines - use ONLY these colors
+     ============================================ */
+
+  /* Primary Brand Colors */
+  --shm-crimson-red: #be1e2d;     /* PRIMARY - from "S" - hyperlinks, accents, CTAs */
+  --shm-content-text: #231f20;    /* PRIMARY - from logo - body text, headings */
+  --shm-navy-blue: #003462;       /* PRIMARY - from "H" - accent elements (use sparingly) */
+
+  /* Supporting Brand Colors */
+  --shm-gold-accent: #d4a574;     /* SUPPORTING - from mountain - special highlights, celebrations */
+  --shm-white: #ffffff;           /* SUPPORTING - pure white for contrast */
+  --shm-light-gray: #f5f5f5;      /* SUPPORTING - backgrounds, subtle sections */
+  --shm-medium-gray: #9ca3af;     /* SUPPORTING - borders, dividers */
+
+  /* Derived colors for specific UI needs (based on brand colors) */
+  --shm-crimson-light: rgba(190, 30, 45, 0.1);    /* Light crimson for backgrounds */
+  --shm-navy-light: rgba(0, 52, 98, 0.1);         /* Light navy for backgrounds */
+  --shm-gold-light: rgba(212, 165, 116, 0.15);    /* Light gold for backgrounds */
+
+  /* Material Design Custom Colors - mapped to brand */
   --md-primary-fg-color: var(--shm-content-text);
   --md-primary-fg-color--light: var(--shm-medium-gray);
   --md-primary-fg-color--dark: var(--shm-content-text);
   --md-accent-fg-color: var(--shm-crimson-red);
-  --md-accent-fg-color--transparent: rgba(190, 30, 45, 0.1);
-  
+  --md-accent-fg-color--transparent: var(--shm-crimson-light);
+
   /* Force white background for main content areas */
   --md-default-bg-color: var(--shm-white);
   --md-default-fg-color: var(--shm-content-text);
-  
-  /* Custom enhancements */
+
+  /* Brand-compliant gradients */
   --shm-gradient-primary: linear-gradient(135deg, var(--shm-content-text), #1a1718);
   --shm-gradient-accent: linear-gradient(135deg, var(--shm-crimson-red), #9a1825);
   --shm-gradient-navy: linear-gradient(135deg, var(--shm-navy-blue), #002549);
+  --shm-gradient-gold: linear-gradient(135deg, var(--shm-gold-accent), #c4956a);
 }
 
 /* Main content area - Force white background for cross-browser compatibility */
@@ -116,10 +124,61 @@ body {
   font-size: 1.2rem;
   color: var(--shm-content-text);
   opacity: 0.8;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Hero service info section - Clean, prominent design */
+.hero-service-info {
+  background: var(--shm-light-gray);
+  border: 2px solid var(--shm-crimson-red);
+  color: var(--shm-content-text);
+  padding: 1.25rem 2rem;
+  border-radius: 0.75rem;
+  margin: 1.5rem auto;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(35, 31, 32, 0.1);
+}
+
+.hero-service-time {
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem 0;
+  color: var(--shm-content-text);
+  font-weight: 600;
+}
+
+.hero-address {
+  font-size: 1rem;
+  margin: 0;
+  color: var(--shm-content-text);
+}
+
+.hero-address a {
+  color: var(--shm-crimson-red);
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.hero-address a:hover {
+  color: var(--shm-navy-blue);
+}
+
+.hero-youtube {
+  font-size: 1rem;
+  margin: 0.5rem 0 0 0;
+  color: var(--shm-content-text);
+}
+
+.hero-youtube a {
+  color: var(--shm-crimson-red);
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.hero-youtube a:hover {
+  color: var(--shm-navy-blue);
 }
 
 /* Button enhancements - Cleaner, more refined styling */
@@ -149,15 +208,33 @@ body {
   border-color: var(--shm-crimson-red);
 }
 
+/* Primary button - uses CRIMSON RED (the primary brand color per guidelines) */
 .md-button--primary {
+  background: var(--shm-crimson-red);
+  color: var(--shm-white);
+  border: 2px solid var(--shm-crimson-red);
+  box-shadow: 0 2px 4px rgba(190, 30, 45, 0.2);
+}
+
+.md-button--primary:hover,
+.md-button--primary:focus {
+  background: var(--shm-white);
+  color: var(--shm-crimson-red);
+  border-color: var(--shm-crimson-red);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(190, 30, 45, 0.3);
+}
+
+/* Secondary button variant - uses Navy Blue (sparingly, as accent) */
+.md-button--secondary {
   background: var(--shm-navy-blue);
   color: var(--shm-white);
   border: 2px solid var(--shm-navy-blue);
   box-shadow: 0 2px 4px rgba(0, 52, 98, 0.1);
 }
 
-.md-button--primary:hover,
-.md-button--primary:focus {
+.md-button--secondary:hover,
+.md-button--secondary:focus {
   background: var(--shm-white);
   color: var(--shm-navy-blue);
   border-color: var(--shm-navy-blue);
@@ -165,7 +242,11 @@ body {
   box-shadow: 0 4px 12px rgba(0, 52, 98, 0.25);
 }
 
-/* Accent highlights */
+/* ============================================
+   Accent text highlights - BRAND COMPLIANT
+   Only using official brand colors
+   ============================================ */
+
 .accent-text {
   color: var(--shm-crimson-red);
   font-weight: 600;
@@ -181,12 +262,16 @@ body {
   font-weight: 600;
 }
 
-.green-accent {
-  color: var(--shm-success-green);
-  font-weight: 600;
-}
+/* Note: No green-accent class - green is not a brand color */
 
-/* Card enhancements - Clean white design */
+/* ============================================
+   Card/Admonition enhancements
+   BRAND COMPLIANT: Using only official brand colors
+   - Crimson Red: Primary highlights, important items
+   - Navy Blue: Informational items (use sparingly)
+   - Gold Accent: Special highlights, celebrations, tips
+   ============================================ */
+
 .md-typeset .admonition,
 .md-typeset details {
   background: var(--shm-white);
@@ -202,40 +287,127 @@ body {
   box-shadow: 0 4px 12px rgba(35, 31, 32, 0.15);
 }
 
+/* Admonition title styling - override Material defaults with brand colors */
+.md-typeset .admonition > .admonition-title,
+.md-typeset details > summary {
+  background-color: var(--shm-crimson-light) !important;
+}
+
+.md-typeset .admonition > .admonition-title::before,
+.md-typeset details > summary::before {
+  background-color: var(--shm-crimson-red) !important;
+}
+
+/* NOTE admonition - Navy Blue (informational) */
 .md-typeset .admonition.note {
   border-left-color: var(--shm-navy-blue);
   background: var(--shm-white);
+}
+
+.md-typeset .admonition.note > .admonition-title {
+  background-color: var(--shm-navy-light) !important;
+}
+
+.md-typeset .admonition.note > .admonition-title::before {
+  background-color: var(--shm-navy-blue) !important;
 }
 
 .md-typeset .admonition.note:hover {
   border-color: var(--shm-navy-blue);
 }
 
+/* TIP admonition - Gold Accent (special highlights, positive) */
 .md-typeset .admonition.tip {
-  border-left-color: var(--shm-success-green);
+  border-left-color: var(--shm-gold-accent);
   background: var(--shm-white);
+}
+
+.md-typeset .admonition.tip > .admonition-title {
+  background-color: var(--shm-gold-light) !important;
+}
+
+.md-typeset .admonition.tip > .admonition-title::before {
+  background-color: var(--shm-gold-accent) !important;
 }
 
 .md-typeset .admonition.tip:hover {
-  border-color: var(--shm-success-green);
+  border-color: var(--shm-gold-accent);
 }
 
+/* WARNING admonition - Crimson Red (important notice) */
 .md-typeset .admonition.warning {
-  border-left-color: var(--shm-warning-orange);
+  border-left-color: var(--shm-crimson-red);
   background: var(--shm-white);
 }
 
-.md-typeset .admonition.warning:hover {
-  border-color: var(--shm-warning-orange);
+.md-typeset .admonition.warning > .admonition-title {
+  background-color: var(--shm-crimson-light) !important;
 }
 
+.md-typeset .admonition.warning > .admonition-title::before {
+  background-color: var(--shm-crimson-red) !important;
+}
+
+.md-typeset .admonition.warning:hover {
+  border-color: var(--shm-crimson-red);
+}
+
+/* INFO admonition - Navy Blue (informational) */
 .md-typeset .admonition.info {
   border-left-color: var(--shm-navy-blue);
   background: var(--shm-white);
 }
 
+.md-typeset .admonition.info > .admonition-title {
+  background-color: var(--shm-navy-light) !important;
+}
+
+.md-typeset .admonition.info > .admonition-title::before {
+  background-color: var(--shm-navy-blue) !important;
+}
+
 .md-typeset .admonition.info:hover {
   border-color: var(--shm-navy-blue);
+}
+
+/* SUCCESS admonition - Gold Accent (celebrations, achievements) */
+.md-typeset .admonition.success {
+  border-left-color: var(--shm-gold-accent);
+  background: var(--shm-white);
+}
+
+.md-typeset .admonition.success > .admonition-title {
+  background-color: var(--shm-gold-light) !important;
+}
+
+.md-typeset .admonition.success > .admonition-title::before {
+  background-color: var(--shm-gold-accent) !important;
+}
+
+.md-typeset .admonition.success:hover {
+  border-color: var(--shm-gold-accent);
+}
+
+/* DANGER/ERROR admonition - Crimson Red */
+.md-typeset .admonition.danger,
+.md-typeset .admonition.error {
+  border-left-color: var(--shm-crimson-red);
+  background: var(--shm-white);
+}
+
+.md-typeset .admonition.danger > .admonition-title,
+.md-typeset .admonition.error > .admonition-title {
+  background-color: var(--shm-crimson-light) !important;
+}
+
+.md-typeset .admonition.danger > .admonition-title::before,
+.md-typeset .admonition.error > .admonition-title::before {
+  background-color: var(--shm-crimson-red) !important;
+}
+
+.md-typeset .admonition.danger:hover,
+.md-typeset .admonition.error:hover {
+  border-color: var(--shm-crimson-red);
 }
 
 /* Table styling */

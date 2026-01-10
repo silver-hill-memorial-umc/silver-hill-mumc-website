@@ -16,9 +16,10 @@ Available for pastoral care, spiritual guidance, and appointment scheduling thro
 
 ### Church Location
 **Silver Hill Memorial United Methodist Church**
-Spartanburg, SC
+778 John B White Sr Blvd
+Spartanburg, SC 29306
 
-**Find us on Google Maps:** [https://maps.app.goo.gl/eJUeRBVKxBakPmEJ7](https://maps.app.goo.gl/eJUeRBVKxBakPmEJ7)
+[Get Directions on Google Maps](https://maps.app.goo.gl/eJUeRBVKxBakPmEJ7){ .md-button }
 
 ### Sunday Service Times
 **Sunday Morning Worship:** 10:00 AM Eastern Time

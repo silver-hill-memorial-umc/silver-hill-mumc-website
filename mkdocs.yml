@@ -37,6 +37,7 @@ theme:
 # Enhanced navigation structure
 nav:
   - Home: index.md
+  - New Here?: new-here.md
   - About Us:
     - about/index.md
     - Our History: history/index.md

@@ -2,9 +2,14 @@
   <img src="images/shmumc-logo-main.svg" alt="Silver Hill Memorial UMC Logo" class="hero-logo">
   <h1 class="hero-title">Welcome to Silver Hill Memorial UMC</h1>
   <p class="hero-subtitle">A vibrant community of faith serving Spartanburg with open hearts, open minds, and open doors</p>
-  <div style="margin-top: 2rem;">
-    <a href="worship/" class="md-button md-button--primary">Join Us for Worship</a>
-    <a href="about/" class="md-button" style="margin-left: 1rem;">Learn About Us</a>
+  <div class="hero-service-info">
+    <p class="hero-service-time">🕐 <strong>Join Us Sundays at 10:00 AM</strong></p>
+    <p class="hero-address"><a href="https://maps.app.goo.gl/eJUeRBVKxBakPmEJ7" target="_blank">📍 778 John B White Sr Blvd, Spartanburg, SC 29306</a></p>
+    <p class="hero-youtube"><a href="https://www.youtube.com/@silverhillumc5597" target="_blank">📺 Watch Live or On-Demand on YouTube</a></p>
+  </div>
+  <div style="margin-top: 1.5rem;">
+    <a href="new-here/" class="md-button md-button--primary">New Here? Start Here!</a>
+    <a href="worship/" class="md-button" style="margin-left: 1rem;">Join Us for Worship</a>
   </div>
 </div>
 
