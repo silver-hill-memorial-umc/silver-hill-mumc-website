@@ -433,13 +433,24 @@ body {
   border-radius: 0.5rem;
 }
 
-.md-search__input {
+/* Search input in header (navy background) */
+.md-header .md-search__input {
   background: transparent;
   color: var(--shm-white);
 }
 
-.md-search__input::placeholder {
+.md-header .md-search__input::placeholder {
   color: rgba(255, 255, 255, 0.7);
+}
+
+/* Search input when modal is open (white background) */
+.md-search__input {
+  color: var(--shm-content-text) !important;
+  caret-color: var(--shm-content-text);
+}
+
+.md-search__input::placeholder {
+  color: var(--shm-medium-gray);
 }
 
 /* Active search results styling */
