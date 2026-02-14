@@ -56,22 +56,22 @@ Find ways to use your gifts in service to God and community through our many min
 
 ## A Message from Our Pastor
 
-<div style="display: flex; align-items: flex-start; gap: 2rem; margin: 2rem 0;" markdown>
-<div style="flex-shrink: 0;" markdown>
+<div class="pastor-message" markdown>
+<div class="pastor-message__photo" markdown>
 ![Rev. Morris Waymer, Jr.](images/rev-waymer-photo.jpeg){ .pastor-photo style="max-width: 200px;" }
 </div>
-<div style="flex: 1;" markdown>
+<div class="pastor-message__content" markdown>
 
 **Rev. Morris Waymer, Jr.**
 
-> Greetings, Silver Hill Memorial UMC and the Spartanburg Community,
-> 
-> I am excited about the opportunity to serve the great people of Silver Hill Memorial and the surrounding community. As your pastor, I believe in <span class="gold-accent">leading by example</span> and that listening is one of the most critical keys in ministry - because people need to be heard and offered grace and compassion.
-> 
-> Ministry involves serving both the church and its surrounding community. The Waymer Family is delighted to serve in this new chapter of ministry. If you want to hear more about my story or meet me, please call the church office to schedule an appointment.
-> 
-> *Grace and Peace,*  
-> **Rev. Morris Waymer, Jr.**
+Greetings, Silver Hill Memorial UMC and the Spartanburg Community,
+
+I am excited about the opportunity to serve the great people of Silver Hill Memorial and the surrounding community. As your pastor, I believe in <span class="gold-accent">leading by example</span> and that listening is one of the most critical keys in ministry - because people need to be heard and offered grace and compassion.
+
+Ministry involves serving both the church and its surrounding community. The Waymer Family is delighted to serve in this new chapter of ministry. If you want to hear more about my story or meet me, please call the church office to schedule an appointment.
+
+*Grace and Peace,*
+**Rev. Morris Waymer, Jr.**
 
 </div>
 </div>

@@ -255,6 +255,9 @@ body {
 .gold-accent {
   color: var(--shm-gold-accent);
   font-weight: 600;
+  background: var(--shm-gold-light);
+  padding: 0.1em 0.35em;
+  border-radius: 0.25em;
 }
 
 .navy-accent {
@@ -699,6 +702,32 @@ body {
   box-shadow: 0 4px 16px rgba(35, 31, 32, 0.3);
 }
 
+/* Pastor message card */
+.pastor-message {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem 0;
+  background: var(--shm-white);
+  border-left: 4px solid var(--shm-gold-accent);
+  border-radius: 0 0.75rem 0.75rem 0;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(35, 31, 32, 0.08);
+}
+
+.pastor-message__photo {
+  flex-shrink: 0;
+}
+
+.pastor-message__content {
+  flex: 1;
+}
+
+.pastor-message__content p {
+  font-style: normal;
+  line-height: 1.7;
+}
+
 /* Quote styling */
 .md-typeset blockquote {
   border-left: 4px solid var(--shm-crimson-red);
@@ -761,6 +790,17 @@ body {
   
   .hero-subtitle {
     font-size: 1rem;
+  }
+
+  .pastor-message {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .pastor-message__content p {
+    text-align: left;
   }
 }
 
